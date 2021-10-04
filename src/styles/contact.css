@@ -1,0 +1,43 @@
+.contact .container {
+  display: flex;
+  flex-direction: column;
+}
+.contact ul {
+  flex: 1;
+  margin-bottom: 32px;
+}
+.contact li {
+  margin-bottom: 18px;
+  list-style-type: none;
+}
+.contact li a {
+  display: flex;
+  align-items: center;
+  font-weight: var(--regular);
+}
+.contact li a:hover {
+  transform: translateY(-3px);
+}
+.contact li i {
+  font-size: 18px;
+  width: 28px;
+  margin-right: 8px;
+}
+
+.contact__maps {
+  flex: 1;
+}
+
+/* -------------------------------------------------------------------------- */
+/*                                 MEDIA QUERY                                */
+/* -------------------------------------------------------------------------- */
+/* md */
+@media screen and (min-width: 768px) {
+  .contact .container {
+    flex-direction: row;
+  }
+  .contact li i {
+    font-size: 32px;
+    margin-right: 18px;
+  }
+}

@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta
+      name="keywords"
+      content="Abdulrahman Daud Miraj, Fullstack developer, personal website, portfolio"
+    />
+    <meta
+      name="description"
+      content="Hi, I'm Abdulrahman Daud Miraj, a Fullstack developer from Kenya"
+    />
+    <!-- css -->
+    <link rel="stylesheet" href="src/styles/style.css" />
+    <link rel="stylesheet" href="src/styles/home.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <meta property="og:title" content="Abdulrahman Daud Website" />
+    <meta
+      property="og:description"
+      content="Hi, my name is Abdulrahman from Kenya, I am a Software Engineer, now I am active in University and working on my personal projects. Nice to meet you."
+    />
+    <title>Abdulrahman Daud Miraj</title>
+  </head>
+  <body>
+    <!-- START: navbar -->
+    <nav class="navbar">
+      <div
+        class="container-fluid flex align-items-center justify-content-between"
+      >
+        <!-- navbar brand -->
+        <a href="index.html" class="flex">
+          <svg
+            class="navbar__brand"
+            viewBox="0 0 450 313"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              id="logo-e"
+              d="M0 0V312.998H65.2071H91.2892L273.871 313L273.87 247.753L91.2892 247.791V65.2088H195.623V0H91.2892H0Z"
+              fill="white"
+            />
+            <path
+              id="logo-dot"
+              d="M143.454 117.377V195.626H221.704V117.377H143.454Z"
+              fill="white"
+            />
+            <path
+              id="logo-t"
+              d="M195.621 0.00231934V65.2111H273.871V313H365.162V65.2111H449.932V0.00231934H195.621Z"
+              fill="url(#paint0_linear)"
+            />
+            <defs>
+              <linearGradient
+                id="paint0_linear"
+                x1="181.958"
+                y1="156.45"
+                x2="448.942"
+                y2="156.45"
+                gradientUnits="userSpaceOnUse"
+              >
+                <stop stop-color="#FFA800" />
+                <stop offset="1" stop-color="#E76F00" />
+              </linearGradient>
+            </defs>
+          </svg>
+        </a>
+
+        <!-- navbar navigation -->
+        <ul class="navbar__navigation">
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="src/pages/education.html">EDUCATION</a></li>
+          <li><a href="src/pages/about.html">ABOUT ME</a></li>
+          <li><a href="src/pages/contact.html">CONTACT</a></li>
+          <li>
+            <a
+              href="src/assets/documents/resume.pdf"
+              class="btn btn-sm"
+              target="__blank"
+              rel="noopener noreferrer"
+              >Resume</a
+            >
+          </li>
+        </ul>
+
+        <!-- navbar mobile -->
+        <label class="navbar__toggler align-items-center">
+          <input type="checkbox" />
+          <div class="navbar__toggler__hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div
+            class="
+              navbar__navigation
+              mobile
+              align-items-center
+              justify-content-center
+            "
+          >
+            <ul class="flex flex-column align-items-center">
+              <li><a href="index.html" class="active">HOME</a></li>
+              <li><a href="src/pages/education.html">EDUCATION</a></li>
+              <li><a href="src/pages/about.html">ABOUT ME</a></li>
+              <li><a href="src/pages/contact.html">CONTACT</a></li>
+              <li>
+                <a
+                  href="src/assets/documents/resume.pdf"
+                  class="btn btn-sm"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                  >Resume</a
+                >
+              </li>
+            </ul>
+            <div class="social-media">
+              <a
+                href="https://www.linkedin.com/in/abdulrahman-daud-miraj-0313aa215/"
+                target="__blank"
+                rel="noopener noreferrer"
+                aria-label="Linkedin"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/Sultan3015"
+                target="__blank"
+                rel="noopener noreferrer"
+                aria-label="Github"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+        </label>
+      </div>
+    </nav>
+    <!-- END: navbar -->
+
+    <!-- START: side list -->
+    <aside class="side side__left">
+      <div class="side__left__socialmedia flex flex-column align-items-center">
+        <a
+          href="https://www.linkedin.com/in/abdulrahman-daud-miraj-0313aa215/"
+          target="__blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://github.com/Sultan3015"
+          target="__blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <div class="line"></div>
+    </aside>
+
+    <aside class="side side__right">
+      <div class="side__right__email">
+        <a
+          href="mailto:daudabdurahman22@gmail.com"
+          target="__blank"
+          rel="noopener noreferrer"
+        >
+          <span>daudabdurahman22@gmail.com</span>
+        </a>
+      </div>
+      <div class="line"></div>
+    </aside>
+    <!-- END: side list -->
+
+    <!-- START: main -->
+    <main>
+      <header class="hero">
+        <div class="container flex justify-content-between align-items-center">
+          <div class="hero__text">
+            <span class="mini-heading"> Hi, my name is </span>
+            <h1 class="name-heading"><center>Abdulrahman Daud Miraj</center></h1>
+            <span class="big-heading">Learn, Develop, Innovate</span>
+            <p>
+              I‘m a student at Chuka University, and I am a Software Engineer
+              specializing in Fullstack Development, and anything TECH related
+              development from Kenya.
+            </p>
+            <a
+              href="mailto:daudabdurahman22@gmail.com"
+              target="__blank"
+              rel="noopener noreferrer"
+              class="btn btn-lg"
+              >Get In Touch</a 
+            >
+          </div>
+        </div>
+      </header>
+
+      <section class="ido">
+        <div class="container">
+          <div class="section__heading">
+            <img src="src/assets/icons/ornament.svg" alt="ornaments" />
+            <h2>What can I do</h2>
+            <hr class="hr-lg" />
+          </div>
+          <div class="section__content ido__content">
+            <div class="ido__content__item">
+              <img
+                src="src/assets/icons/ido-uiux-design.svg"
+                alt="UI/UX Design"
+              />
+              <h3>UI / UX Design</h3>
+              <hr class="hr-sm" />
+              <p>
+                Develop a good user interface and user experience, with a
+                beautiful and comfortable appearance for the user.
+              </p>
+            </div>
+
+            <div class="ido__content__item">
+              <img src="src/assets/icons/ido-web-design.svg" alt="Web Design" />
+              <h3>Mobile App Development</h3>
+              <hr class="hr-sm" />
+              <p>
+                Developing an app based on design into a mobile app that can be
+                used. With good performance.
+              </p>
+            </div>
+
+            <div class="ido__content__item">
+              <img
+                src="src/assets/icons/ido-web-dev.svg"
+                alt="Web Development"
+              />
+              <h3>Web Development</h3>
+              <hr class="hr-sm" />
+              <p>
+                Developing a very well-functioning website, various features and
+                comfortable website performance.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="techstack">
+        <div class="container">
+          <div class="section__heading">
+            <img src="src/assets/icons/ornament.svg" alt="ornaments" />
+            <h2>Tech stack</h2>
+            <hr class="hr-lg" />
+          </div>
+
+          <div
+            class="section__content techstack__content justify-content-center"
+          >
+            <img
+              src="src/assets/icons/tech-stack/html.svg"
+              alt="html"
+              title="HTML5"
+            />
+            <img
+              src="src/assets/icons/tech-stack/css.svg"
+              alt="css"
+              title="CSS3"
+            />
+            <img
+              src="src/assets/icons/tech-stack/js.svg"
+              alt="javascript"
+              title="Javascript"
+            />
+            <img
+              src="src/assets/icons/tech-stack/sass.svg"
+              alt="sass"
+              title="SASS"
+            />
+            <img
+              src="src/assets/icons/tech-stack/bootstrap.svg"
+              alt="bootstrap"
+              title="Bootstrap"
+            />
+            <img
+              src="src/assets/icons/tech-stack/react.svg"
+              alt="reactjs"
+              title="ReactJS"
+            />
+            <img
+              src="src/assets/icons/tech-stack/webpack.svg"
+              alt="webpack"
+              title="Docker"
+            />
+            <img
+              src="src/assets/icons/tech-stack/babel.svg"
+              alt="babel"
+              title="Golang"
+            />
+            <img
+              src="src/assets/icons/tech-stack/nodejs.svg"
+              alt="nodejs"
+              title="PostgreSQL"
+            />
+            <img
+              src="src/assets/icons/tech-stack/npm.svg"
+              alt="npm"
+              title="Linux"
+            />
+            <img
+              src="src/assets/icons/tech-stack/git.svg"
+              alt="git"
+              title="GIT"
+            />
+            <img
+              src="src/assets/icons/tech-stack/github.svg"
+              alt="github"
+              title="Github"
+            />
+            <img
+              src="src/assets/icons/tech-stack/pwa.svg"
+              alt="pwa"
+              title="JQuery"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="project">
+        <div class="container">
+          <div class="section__heading">
+            <img src="src/assets/icons/ornament.svg" alt="ornaments" />
+            <h2>Some Things I’ve Built</h2>
+            <hr class="hr-lg" />
+          </div>
+
+          <div class="section__content project__content">
+            <div class="project__content__item">
+              <div class="image">
+                <img
+                  src="src/assets/images/project/project-cookingbox.webp"
+                  alt="cookingbox"
+                />
+                <span class="title">CookingBox</span>
+                <div class="action">
+                  <div class="wrap">
+                    <a
+                      href="https://cookingboxs.netlify.app"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="Visit Project"
+                    >
+                      <img
+                        src="src/assets/icons/visit-link.svg"
+                        alt="visit"
+                        class="icons"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/edwintantawi/CookingBox"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="View Source"
+                    >
+                      <img
+                        src="src/assets/icons/tech-stack/github.svg"
+                        alt="source in github"
+                        class="icons"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  A web platform that provides hundreds of recipes from several
+                  countries. Cookingbox applies Progressive Web Apps (PWA)
+                  technology ...
+                </p>
+              </div>
+            </div>
+            <div class="project__content__item">
+              <div class="image">
+                <img
+                  src="src/assets/images/project/project-whatsappwebclone.webp"
+                  alt="whatsappwebclone"
+                />
+                <div class="title">Whasapp Clone</div>
+                <div class="action">
+                  <div class="wrap">
+                    <a
+                      href="https://clone-whatsapp-web.netlify.app/"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="Visit Project"
+                    >
+                      <img
+                        src="src/assets/icons/visit-link.svg"
+                        alt="visit"
+                        class="icons"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/edwintantawi/whatsapp-clone"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="View Source"
+                    >
+                      <img
+                        src="src/assets/icons/tech-stack/github.svg"
+                        alt="source in github"
+                        class="icons"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  a web that resembles whatsapp web, using ReactJS, MaterialUI,
+                  Firebase Firestore and Firebase Google Authentication ...
+                </p>
+              </div>
+            </div>
+            <div class="project__content__item">
+              <div class="image">
+                <img
+                  src="src/assets/images/project/project-weneeddev.webp"
+                  alt="weneeddev"
+                />
+                <div class="title">WeNeedDev</div>
+                <div class="action">
+                  <div class="wrap">
+                    <a
+                      href="https://weneeddev.netlify.app/"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="Visit Project"
+                    >
+                      <img
+                        src="src/assets/icons/visit-link.svg"
+                        alt="visit"
+                        class="icons"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/edwintantawi/WeNeedDev"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="View Source"
+                    >
+                      <img
+                        src="src/assets/icons/tech-stack/github.svg"
+                        alt="source in github"
+                        class="icons"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  a software development technology web company profile with the
+                  concept of dark mode. enhancing the company's image ...
+                </p>
+              </div>
+            </div>
+            <div class="project__content__item">
+              <div class="image">
+                <img
+                  src="src/assets/images/project/project-pinterestclone.webp"
+                  alt="Pinterest clone"
+                />
+                <div class="title">Pinterest Clone</div>
+                <div class="action">
+                  <div class="wrap">
+                    <a
+                      href="https://clone-pinterest-web.netlify.app/"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="Visit Project"
+                    >
+                      <img
+                        src="src/assets/icons/visit-link.svg"
+                        alt="visit"
+                        class="icons"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/edwintantawi/pinterest-clone"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="View Source"
+                    >
+                      <img
+                        src="src/assets/icons/tech-stack/github.svg"
+                        alt="source in github"
+                        class="icons"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  web that resembles the Pinterest website, using ReactJS
+                  technology, MaterialUI & Icons, with data from the Unsplash
+                  API ...
+                </p>
+              </div>
+            </div>
+
+            <div class="project__content__item">
+              <div class="image">
+                <img
+                  src="src/assets/images/project/project-google-clone.webp"
+                  alt="Google clone"
+                />
+                <div class="title">Google Clone</div>
+                <div class="action">
+                  <div class="wrap">
+                    <a
+                      href="https://clone-google-web.netlify.app/"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="Visit Project"
+                    >
+                      <img
+                        src="src/assets/icons/visit-link.svg"
+                        alt="visit"
+                        class="icons"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/edwintantawi/clone-app__google"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="View Source"
+                    >
+                      <img
+                        src="src/assets/icons/tech-stack/github.svg"
+                        alt="source in github"
+                        class="icons"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  A cloned website from the google search engine, with similar
+                  functionality with ReactJS technology, and the Custom Search
+                  API ...
+                </p>
+              </div>
+            </div>
+
+            <div class="project__content__item">
+              <div class="image">
+                <img
+                  src="src/assets/images/project/project-netflix-clone.webp"
+                  alt="Netflix clone"
+                />
+                <div class="title">Netflix Clone</div>
+                <div class="action">
+                  <div class="wrap">
+                    <a
+                      href="https://clone-netflix-web.netlify.app/"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="Visit Project"
+                    >
+                      <img
+                        src="src/assets/icons/visit-link.svg"
+                        alt="visit"
+                        class="icons"
+                      />
+                    </a>
+                    <a
+                      href="https://github.com/edwintantawi/clone-app__netflix-web"
+                      target="__blank"
+                      rel="noopener noreferrer"
+                      title="View Source"
+                    >
+                      <img
+                        src="src/assets/icons/tech-stack/github.svg"
+                        alt="source in github"
+                        class="icons"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="description">
+                <p>
+                  A cloned website from the Netflix website, with similar
+                  functionality with ReactJS technology, and the TMDB API ...
+                </p>
+              </div>
+            </div>
+            <!-- end -->
+          </div>
+        </div>
+      </section>
+
+      <section class="whatnext">
+        <div class="container">
+          <div class="section__heading">
+            <img src="src/assets/icons/ornament.svg" alt="ornaments" />
+            <h2>What’s next ?</h2>
+            <hr class="hr-lg" />
+          </div>
+
+          <div class="section__content whatnext__content">
+            <div class="container flex flex-column text-center">
+              <span class="whatnext__content__title">Get In Touch</span>
+              <p>
+                Is there anything I can help you with? My inbox and social media
+                are always open to you, feel free to ask, I will try my best for
+                you. Thank you for visiting.
+              </p>
+              <div class="whatnext__content__button">
+                <a
+                  href="mailto:daudabdurahman22@gmail.com"
+                  target="__blank"
+                  rel="noopener noreferrer"
+                  class="btn btn-lg"
+                  >Hi Abdulrahman ...</a 
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- END: main -->
+
+    <!-- START: footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <hr class="hr-lg" />
+        <p>Design & Build by Abdulrahman Daud Miraj</p>
+        <p>copyright &copy; 2021</p>
+      </div>
+    </footer>
+    <!-- END: footer -->
+  </body>
+</html>
